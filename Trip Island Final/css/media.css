@@ -1,0 +1,121 @@
+@media (max-width:1000px) {
+
+  /* hi-res laptops and desktops */
+
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 7% 5% 7% 5%;
+  }
+
+
+  .second-img {
+    width: 70%;
+    margin: auto;
+  }
+
+  .second-inform {
+    padding-top: 5%;
+    width: 70%;
+
+    margin: auto;
+    padding: 5%;
+  }
+
+  .second-inform>button {
+    margin-top: 5%;
+  }
+
+  h1 {
+    margin-bottom: 3%;
+  }
+
+  .four-section {
+    flex-direction: column;
+
+    padding: 3% 2% 10% 2%;
+  }
+
+  .four-section-text {
+    width: 70%;
+    margin: auto;
+
+    margin-bottom: 5%;
+    padding-left: 5%;
+  }
+
+  .four-section-text>button {
+    margin-top: 5%;
+  }
+
+  .four-section-img {
+    width: 70%;
+    margin: auto;
+
+  }
+
+  .footer-rightblock {
+    margin-top: 5%;
+  }
+
+  .footer-leftblock {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .third-section {
+    flex-direction: row-reverse;
+
+    background-size: cover;
+  }
+
+  .third-section-text {
+    display: none;
+  }
+
+  .third-section-inputs {
+    width: 40%;
+    padding-left: 5%;
+    margin: auto;
+  }
+
+  .inputs-confirm {
+    display: none;
+  }
+
+  .third-section-phone {
+    display: block;
+    color: #030000;
+
+    width: 50%;
+    padding-left: 30%;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .third-section-inputs>button {
+    font-size: 0.7em;
+    padding: 2% 4% 2% 4%;
+
+    color: #000000;
+  }
+
+  .third-section-inputs>button:hover {
+    font-size: 0.7em;
+    padding: 2% 4% 2% 4%;
+
+    color: #000000;
+  }
+
+  .third-section-inputs>input {
+    font-size: 0.6em;
+    padding: 10% 10% 10% 10%;
+  }
+
+  .container-navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20%;
+  }
+}
